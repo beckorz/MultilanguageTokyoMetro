@@ -111,7 +111,7 @@
           </tbody>
       </table>
 
-      <div data-role="popup" id="train_popu" class="ui-content" data-dismissible="false">
+      <div data-role="popup" id="train_popup" class="ui-content" data-dismissible="false">
         <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
         <span> </span>
       </div>

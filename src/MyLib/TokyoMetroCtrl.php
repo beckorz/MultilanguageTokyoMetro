@@ -531,7 +531,9 @@ class TokyoMetroCtrl extends \MyLib\TokyoMetroApi
                             $row->{'odpt:departureTime'} == $tRow->{'odpt:departureTime'}
                         ) && $this->chkSameStation(
                             $stationName,
-                            $tRow->{'odpt:departureStation'}
+                            $row->{'odpt:destinationStation'},
+                            $tRow->{'odpt:departureStation'},
+                            $tm->{'odpt:terminalStation'}
                         )
                     ) {
                         $row->{'odpt:trainNumber'} = $tm->{'odpt:trainNumber'};
@@ -569,7 +571,7 @@ class TokyoMetroCtrl extends \MyLib\TokyoMetroApi
 
         return strcmp($a, $b);
     }
-    private function chkSameStation($a, $b)
+    private function chkSameStation($a,$destinationStation, $b, $terminalStation)
     {
         if ($a === $b) {
             return true;
@@ -577,9 +579,12 @@ class TokyoMetroCtrl extends \MyLib\TokyoMetroApi
         $apath = explode('.', $a);
         $bpath = explode('.', $b);
         if ($apath[count($apath)-1] == $bpath[count($bpath)-1]) {
-            return true;
+            $dpath = explode('.', $destinationStation);
+            $tpath = explode('.', $terminalStation);
+            if ($dpath[count($dpath)-1] == $tpath[count($tpath)-1]) {
+                return true;
+            }
         }
-
         return false;
     }
 }
