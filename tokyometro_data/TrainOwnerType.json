@@ -1,0 +1,11 @@
+{
+  "odpt.TrainOwner:TokyoMetro":"東京メトロ",
+  "odpt.TrainOwner:Seibu":"西武鉄道",
+  "odpt.TrainOwner:SaitamaRailway":"埼玉高速鉄道",
+  "odpt.TrainOwner:Tobu":"東武鉄道",
+  "odpt.TrainOwner:ToyoRapidRailway":"東葉高速鉄道",
+  "odpt.TrainOwner:Toei":"都営地下鉄",
+  "odpt.TrainOwner:Tokyu":"東急電鉄",
+  "odpt.TrainOwner:JR-East":"JR東日本",
+  "odpt.TrainOwner:Odakyu":"小田急電鉄"
+}

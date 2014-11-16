@@ -1,0 +1,23 @@
+{
+  "odpt.RailDirection:TokyoMetro.Asakusa":"浅草 方面",
+  "odpt.RailDirection:TokyoMetro.Ogikubo":"荻窪 方面",
+  "odpt.RailDirection:TokyoMetro.Ikebukuro":"池袋 方面",
+  "odpt.RailDirection:TokyoMetro.Honancho":"方南町 方面",
+  "odpt.RailDirection:TokyoMetro.NakanoSakaue":"中野坂上 方面",
+  "odpt.RailDirection:TokyoMetro.NakaMeguro":"中目黒 方面",
+  "odpt.RailDirection:TokyoMetro.KitaSenju":"北千住 方面",
+  "odpt.RailDirection:TokyoMetro.NishiFunabashi":"西船橋 方面",
+  "odpt.RailDirection:TokyoMetro.Nakano":"中野 方面",
+  "odpt.RailDirection:TokyoMetro.YoyogiUehara":"代々木上原 方面",
+  "odpt.RailDirection:TokyoMetro.Ayase":"綾瀬 方面",
+  "odpt.RailDirection:TokyoMetro.KitaAyase":"北綾瀬 方面",
+  "odpt.RailDirection:TokyoMetro.ShinKiba":"新木場 方面",
+  "odpt.RailDirection:TokyoMetro.Ikebukuro":"池袋 方面",
+  "odpt.RailDirection:TokyoMetro.Oshiage":"押上 方面",
+  "odpt.RailDirection:TokyoMetro.Shibuya":"渋谷 方面",
+  "odpt.RailDirection:TokyoMetro.AkabaneIwabuchi":"赤羽岩淵 方面",
+  "odpt.RailDirection:TokyoMetro.Meguro":"目黒 方面",
+  "odpt.RailDirection:TokyoMetro.ShirokaneTakanawa":"白金高輪 方面",
+  "odpt.RailDirection:TokyoMetro.Wakoshi":"和光市 方面",
+  "odpt.RailDirection:TokyoMetro.KotakeMukaihara":"小竹向原 方面"
+}

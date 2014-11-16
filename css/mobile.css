@@ -1,0 +1,26 @@
+tr {
+    border-bottom: 1px solid lightgray;
+}
+/**
+ * ltr言語用
+ */
+.rtl {
+  direction: rtl;
+  /*unicode-bidi:bidi-override;*/
+}
+
+td div.train {
+    border-top:1px solid #cccccc;
+    border-left:1px solid #cccccc;
+    border-right:1px solid #333300;
+    border-bottom:1px solid #333300;
+    padding: 2px 2px;
+}
+
+.number {
+    text-align: right;
+}
+
+img {
+  vertical-align: middle;
+}

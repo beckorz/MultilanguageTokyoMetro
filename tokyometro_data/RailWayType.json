@@ -1,0 +1,105 @@
+{
+  "odpt.Railway:TokyoMetro.Ginza": {
+    "title" : "東京メトロ銀座線",
+    "icon" : "/mtm/img/logo/G.png",
+    "color" : "#FF9500",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.Asakusa",
+        "odpt.RailDirection:TokyoMetro.Shibuya"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.Marunouchi": {
+    "title" : "東京メトロ丸ノ内線",
+    "icon" : "/mtm/img/logo/M.png",
+    "color" : "#F62E36",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.Ikebukuro",
+        "odpt.RailDirection:TokyoMetro.Ogikubo"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.MarunouchiBranch" : {
+    "title" : "東京メトロ丸ノ内線(分岐線)",
+    "icon" : "/mtm/img/logo/mm03.png",
+    "color" : "#F62E36",
+    "branch" : true,
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.NakanoSakaue",
+        "odpt.RailDirection:TokyoMetro.Honancho"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.Hibiya" : { 
+    "title" : "東京メトロ日比谷線",
+    "icon" : "/mtm/img/logo/H.png",
+    "color" : "#B5B5AC",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.KitaSenju",
+        "odpt.RailDirection:TokyoMetro.NakaMeguro"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.Tozai": {
+    "title" : "東京メトロ東西線",
+    "icon" : "/mtm/img/logo/T.png",
+    "color" : "#009BBF",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.NishiFunabashi",
+        "odpt.RailDirection:TokyoMetro.Nakano"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.Chiyoda": {
+    "title" : "東京メトロ千代田線",
+    "icon" : "/mtm/img/logo/C.png",
+    "color" : "#00BB85",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.Ayase",
+        "odpt.RailDirection:TokyoMetro.YoyogiUehara"
+    ]
+    ,"branchDirections" : [
+        "odpt.RailDirection:TokyoMetro.KitaAyase",
+        "odpt.RailDirection:TokyoMetro.Ayase"
+    ]
+    ,"branchDirectionCond" : {
+        "odpt.Station:TokyoMetro.Chiyoda.KitaAyase" : {
+           "mergeMain" : false
+        },
+        "odpt.Station:TokyoMetro.Chiyoda.Ayase" : {
+           "mergeMain" : true
+        }
+    }
+  },
+  "odpt.Railway:TokyoMetro.Yurakucho": {
+    "title" : "東京メトロ有楽町線",
+    "icon" : "/mtm/img/logo/Y.png",
+    "color" : "#C1A470",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.Wakoshi",
+        "odpt.RailDirection:TokyoMetro.ShinKiba"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.Hanzomon": {
+    "title" : "東京メトロ半蔵門線",
+    "icon" : "/mtm/img/logo/Z.png",
+    "color" : "#8F76D6",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.Shibuya",
+        "odpt.RailDirection:TokyoMetro.Oshiage"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.Namboku": {
+    "title" : "東京メトロ南北線",
+    "icon" : "/mtm/img/logo/N.png",
+    "color" : "#00AC9B",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.Meguro",
+        "odpt.RailDirection:TokyoMetro.AkabaneIwabuchi"
+    ]
+  },
+  "odpt.Railway:TokyoMetro.Fukutoshin": {
+    "title" : "東京メトロ副都心線",
+    "icon" : "/mtm/img/logo/F.png",
+    "color" : "#9C5E31",
+    "directions" : [
+        "odpt.RailDirection:TokyoMetro.Wakoshi",
+        "odpt.RailDirection:TokyoMetro.Shibuya"
+    ]
+  }
+}

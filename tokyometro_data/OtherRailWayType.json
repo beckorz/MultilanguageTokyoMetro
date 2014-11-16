@@ -1,0 +1,145 @@
+{
+  "odpt.Railway:JR-East": {
+    "title" : "JR東日本"
+  },
+  "odpt.Railway:JR-East.Yamanote": {
+    "title" : "JR東日本 山手線",
+    "url": "http://en.wikipedia.org/wiki/Yamanote_Line"
+  },
+  "odpt.Railway:JR-East.Saikyo": {
+    "title" : "JR東日本 埼京線",
+    "url": "http://en.wikipedia.org/wiki/Saiky%C5%8D_Line"
+  },
+  "odpt.Railway:JR-East.NaritaExpress" : {
+    "title" : "JR東日本 成田エクスプレス",
+    "url": "http://en.wikipedia.org/wiki/Narita_Express"
+  },
+  "odpt.Railway:JR-East.ShonanShinjuku" : { 
+    "title" : "JR東日本 湘南新宿ライン",
+    "url": "http://en.wikipedia.org/wiki/Sh%C5%8Dnan-Shinjuku_Line"
+  },
+  "odpt.Railway:JR-East.Tokaido" : {
+    "title" : "JR東日本 東海道本線",
+    "url": "http://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Main_Line"
+  },
+  "odpt.Railway:JR-East.Yokosuka" : {
+    "title" : "JR東日本 横須賀線",
+    "url": "http://en.wikipedia.org/wiki/Yokosuka_Line"
+  },
+  "odpt.Railway:JR-East.KeihinTohoku" : {
+    "title" : "JR東日本 京浜東北線",
+    "url": "http://en.wikipedia.org/wiki/Keihin-T%C5%8Dhoku_Line"
+  },
+  "odpt.Railway:JR-East.Sobu" : {
+    "title" : "JR東日本 総武本線",
+    "url": "http://en.wikipedia.org/wiki/S%C5%8Dbu_Main_Line"
+  },
+  "odpt.Railway:JR-East.ChuoKaisoku" : {
+    "title" : "JR東日本 中央線快速",
+    "url": "http://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D_Line_%28Rapid%29"
+  },
+  "odpt.Railway:JR-East.Utsunomiya" : {
+    "title" : "JR東日本 宇都宮線",
+    "url": "http://en.wikipedia.org/wiki/Utsunomiya_Line"
+  },
+  "odpt.Railway:JR-East.Joban" : {
+    "title" : "JR東日本 常磐線",
+    "url": "http://en.wikipedia.org/wiki/J%C5%8Dban_Line"
+  },
+  "odpt.Railway:JR-East.Takasaki" : {
+    "title" : "JR東日本 高崎線",
+    "url": "http://en.wikipedia.org/wiki/Takasaki_Line"
+  },
+  "odpt.Railway:JR-East.ChuoSobu" : {
+    "title" : "JR東日本 中央・総武緩行線",
+    "url": "http://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D-S%C5%8Dbu_Line"
+  },
+  "odpt.Railway:JR-East.Chuo" : {
+    "title" : "JR東日本 中央線",
+    "url" : "http://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D_Main_Line"
+  },
+  "odpt.Railway:JR-East.Keiyo" : {
+    "title" : "JR東日本 京葉線",
+    "url" : "http://en.wikipedia.org/wiki/Keiy%C5%8D_Line"
+  },
+  "odpt.Railway:JR-East.Musashino" : {
+    "title" : "JR東日本 武蔵野線",
+    "url" : "http://en.wikipedia.org/wiki/Musashino_Line"
+  },
+  "odpt.Railway:Odakyu.Odawara" : {
+    "title" : "小田急小田原線"
+  },
+  "odpt.Railway:Keio.Keio" : {
+    "title" : "京王線"
+  },
+  "odpt.Railway:Keio.New" : {
+    "title" : "京王新線"
+  },
+  "odpt.Railway:Keisei.KeiseiMain" : {
+    "title" : "京成本線"
+  },
+  "odpt.Railway:Yurikamome.Yurikamome" : {
+    "title" : "ゆりかもめ"
+  },
+  "odpt.Railway:MIR.TX" : {
+    "title" : "つくばエクスプレス"
+  },
+  "odpt.Railway:TWR.Rinkai" : {
+    "title" : "りんかい線"
+  },
+  "odpt.Railway:ToyoRapidRailway.ToyoRapidRailway" : {
+    "title" : "東葉高速線"
+  },
+  "odpt.Railway:Tobu.Tojo": {
+    "title" : "東武東上本線"
+  },
+  "odpt.Railway:Tobu.Isesaki": {
+    "title" : "東武伊勢崎線"
+  },
+  "odpt.Railway:Seibu.Ikebukuro": {
+    "title" : "西武池袋線"
+  },
+  "odpt.Railway:Seibu.SeibuYurakucho": {
+    "title" : "西武有楽町線"
+  },
+  "odpt.Railway:Seibu.Shinjuku": {
+    "title" : "西武新宿線"
+  },
+  "odpt.Railway:Toei.Oedo": {
+    "title" : "都営地下鉄大江戸線"
+  },
+  "odpt.Railway:Toei.Asakusa" : {
+    "title" : "都営浅草線"
+  },
+  "odpt.Railway:Toei.Mita" : {
+    "title" : "都営三田線"
+  },
+  "odpt.Railway:Toei.NipporiToneri" : {
+    "title" : "都営日暮里・舎人ライナー"
+  },
+  "odpt.Railway:Toei.TodenArakawa": {
+    "title" : "都電荒川線"
+  },
+  "odpt.Railway:Toei.Shinjuku": {
+    "title" : "都営新宿線"
+  },
+  "odpt.Railway:Keio.Inokashira": {
+    "title" : "京王井の頭"
+  },
+  "odpt.Railway:Tokyu.Toyoko": {
+    "title" : "東急東横線"
+  },
+  "odpt.Railway:Tokyu.Meguro": {
+    "title" : "東急目黒線"
+  },
+  "odpt.Railway:Tokyu.DenEnToshi": {
+    "title" : "東急田園都市線"
+  },
+  "odpt.Railway:Keisei.KeiseiOshiage": {
+    "title" : "京成押上線"
+  },
+  "odpt.Railway:SaitamaRailway.SaitamaRailway": {
+    "title" : "埼玉高速鉄道"
+  }
+  
+}

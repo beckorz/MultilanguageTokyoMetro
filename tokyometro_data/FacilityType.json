@@ -1,0 +1,40 @@
+{
+  "ug:BabyChangingTable": {
+    "title" : "おむつ交換台",
+    "icon" : "/mtm/img/baby_changing_table.png"
+  },
+  "spac:WheelchairAssesible": {
+    "title" : "車いす対応",
+    "icon" : "/mtm/img/wheelchair_assesible.png"
+  },
+  "ug:BabyChair" : {
+    "title" : "ベビーチェア",
+    "icon" : "/mtm/img/baby_chair.png"
+  },
+  "ug:ToiletForOstomate" : { 
+    "title" : "オストメイト",
+    "icon" : "/mtm/img/ostomate.png"
+  },
+  "ug:ToiletForOstomate" : { 
+    "title" : "オストメイト",
+    "icon" : "/mtm/img/ostomate.png"
+  },
+  "ug:Elevator" : { 
+    "title" : "エレベーター",
+    "icon" : "/mtm/img/elevator.png"
+  },
+  "ug:Escalator" : { 
+    "title" : "エスカレーター",
+    "icon" : "/mtm/img/escalator.png"
+  },
+  "ug:Toilet" : { 
+    "title" : "エスカレーター",
+    "icon" : "/mtm/img/toilet.png"
+  },
+  "spac:MobilityScooter": {
+    "title" :"ハンドル型電動車いす利用可能"
+  },
+  "spac:Wheelchair": {
+    "title" :"車いす対応エスカレータ"
+  }
+}

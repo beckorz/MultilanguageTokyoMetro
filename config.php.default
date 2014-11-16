@@ -1,0 +1,15 @@
+<?php
+const TOKYO_METRO_CONSUMER_KEY = 'TODO';
+const TOKYO_METRO_DATA_DIR = './tokyometro_data';
+const END_POINT = 'https://api.tokyometroapp.jp/api/v2/';
+const FONT_PATH = '';
+const GMAP_KEY = 'TODO';
+const MS_AZURE_KEY = 'TODO';
+const DB_PATH = './mtm.sqlite';
+const TW_CONSUMER_KEY    = 'TODO';
+const TW_CONSUMER_SECRET =  'TODO';
+$blackListAccount = array(); // ex array('mima_ita')
+const DEBUG = 1;
+const PYTHON_PATH = 'python';
+const PHP_PATH = 'php';
+const APP_NAME = 'mtm';

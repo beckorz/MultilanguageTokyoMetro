@@ -1,0 +1,56 @@
+
+mitagaki@MITAGAKI-PC C:\pleiades-e3.6\xampp\htdocs\mtm\bat
+# phpcs C:\pleiades-e3.6\xampp\htdocs\mtm\bat\\..\src --standard=PSR2 
+
+FILE: ...\pleiades-e3.6\xampp\htdocs\mtm\src\Controller\Page\StartController.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 16 WARNING(S) AFFECTING 16 LINE(S)
+--------------------------------------------------------------------------------
+ 14 | WARNING | Line exceeds 120 characters; contains 148 characters
+ 15 | WARNING | Line exceeds 120 characters; contains 156 characters
+ 16 | WARNING | Line exceeds 120 characters; contains 214 characters
+ 17 | WARNING | Line exceeds 120 characters; contains 172 characters
+ 18 | WARNING | Line exceeds 120 characters; contains 202 characters
+ 20 | WARNING | Line exceeds 120 characters; contains 160 characters
+ 21 | WARNING | Line exceeds 120 characters; contains 160 characters
+ 26 | WARNING | Line exceeds 120 characters; contains 135 characters
+ 27 | WARNING | Line exceeds 120 characters; contains 168 characters
+ 29 | WARNING | Line exceeds 120 characters; contains 270 characters
+ 31 | WARNING | Line exceeds 120 characters; contains 308 characters
+ 33 | WARNING | Line exceeds 120 characters; contains 238 characters
+ 35 | WARNING | Line exceeds 120 characters; contains 137 characters
+ 47 | WARNING | Line exceeds 120 characters; contains 141 characters
+ 49 | WARNING | Line exceeds 120 characters; contains 141 characters
+ 54 | WARNING | Line exceeds 120 characters; contains 121 characters
+--------------------------------------------------------------------------------
+
+
+FILE: ...:\pleiades-e3.6\xampp\htdocs\mtm\src\Controller\Page\TwitterAnalyze.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 1 | WARNING | A file should declare new symbols (classes, functions,
+   |         | constants, etc.) and cause no other side effects, or it should
+   |         | execute logic with side effects, but should not do both. The
+   |         | first symbol is defined on line 11 and the first side effect is
+   |         | on line 4.
+--------------------------------------------------------------------------------
+
+
+FILE: C:\pleiades-e3.6\xampp\htdocs\mtm\src\MyLib\TokyoMetroApi.php
+--------------------------------------------------------------------------------
+FOUND 0 ERROR(S) AND 1 WARNING(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 107 | WARNING | Line exceeds 120 characters; contains 124 characters
+--------------------------------------------------------------------------------
+
+
+FILE: C:\pleiades-e3.6\xampp\htdocs\mtm\src\MyLib\TwitterCtrl.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR(S) AFFECTING 1 LINE(S)
+--------------------------------------------------------------------------------
+ 63 | ERROR | Empty lines are not allowed in multi-line function calls
+--------------------------------------------------------------------------------
+
+Time: 10 seconds, Memory: 6.75Mb
+

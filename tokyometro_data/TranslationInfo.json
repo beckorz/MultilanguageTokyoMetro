@@ -1,0 +1,60 @@
+{
+  "ja": {
+    "title" : "日本語",
+    "gmapCode" : "ja"
+  },
+  "en": {
+    "title" : "English",
+    "gmapCode" : "en"
+  },
+  "ko": {
+    "title" : "한국어",
+    "gmapCode" : "ko"
+  },
+  "zh-CHS": {
+    "title" : "中国（简体）",
+    "gmapCode" : "zh-CN"
+  },
+  "zh-CHT": {
+    "title" : "中國（繁體）",
+    "gmapCode" : "zh-TW"
+  },
+  "de": {
+    "title" : "German",
+    "gmapCode" : "de"   
+  },
+  "ar": {
+    "title" :"Arabic",
+    "gmapCode" : "ar",
+    "rtl" : true
+  },
+  "fr": {
+    "title" :"French",
+    "gmapCode" : "fr"
+  },
+  "ru": {
+    "title" : "Russian",
+    "gmapCode" : "ru"
+  },
+  "es": {
+    "title" : "Spanish",
+    "gmapCode" : "es"
+  },
+  "th": {
+    "title" : "Thai",
+    "gmapCode" : "th"
+
+  },
+  "it": {
+    "title":"Italian",
+    "gmapCode" : "it"
+  },
+  "hi" : {
+    "title":"हिन्दी",
+    "gmapCode" : "hi"
+  },
+  "pt": {
+    "title":"Portuguese",
+    "gmapCode" : "pt"
+  }  
+} 
