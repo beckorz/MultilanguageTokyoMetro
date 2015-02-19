@@ -45,14 +45,17 @@ class TranslationLogModel extends \Model\ModelBase
         return $cond;
     }
     /**
-     * 特定の路線の運行情報を新しいもの順で取得する
+     * 翻訳情報の変更履歴を検索する
      * @param  string $offset  取得開始位置
      * @param  string $limit   取得件数
      * @param  string $author  作者
+     * @param  string $src     翻訳元文字
+     * @param  string $lang    言語
      * @return .
      */
     public function search($offset, $limit, $author, $src, $lang)
     {
+        $res = new \stdClass();
         $res->rows = $this->createCond($author, $src, $lang)
             ->limit($limit)
             ->offset($offset)

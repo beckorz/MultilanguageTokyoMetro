@@ -112,6 +112,7 @@ class MsTranslatorCacheModel extends \Model\ModelBase
      */
     public function search($offset, $limit, $id, $lang, $src, $result, $author)
     {
+        $res = new \stdClass();
         $res->rows = $this->createCond($id, $lang, $src, $result, $author)->
                             limit($limit)->
                             offset($offset)->
