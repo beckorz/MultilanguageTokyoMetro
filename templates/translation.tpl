@@ -27,8 +27,8 @@
   <h2>使用可能な言語</h2>
   <table class="normal">
     <thead>
-      <th>言語名</th>
       <th>コード</th>
+      <th>言語名</th>
       <th>言語ファイル</th>
     </thead>
     <tbody>

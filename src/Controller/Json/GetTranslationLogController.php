@@ -37,6 +37,7 @@ class GetTranslationLogController extends \Controller\ControllerBase
         }
         $ret = $model->search($offset, $limit, $author, $src, $lang);
         header('Content-Type: text/javascript; charset=utf-8');
+        $responce = new \stdClass();
         $responce->page = $this->app->request->params('page');
         $responce->total = ceil($ret->records/$limit);
         $responce->records = $ret->records;
