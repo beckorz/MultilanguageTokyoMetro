@@ -34,6 +34,24 @@ http://needtec.sakura.ne.jp/mtm
     <?php
     require_once '/home/xxx/private/config.php';
 
+キャッシュの更新
+-----------------
+駅情報、時刻表や言語情報のキャッシュを以下のコマンドで更新します.  
+
+    #キャッシュの更新
+    #ダイヤの更新などがあったら行う
+    php script/updatecache.php
+    
+    #言語の更新
+    php script/updatelang.php
+
+定期処理の実行
+-----------------
+列車位置情報、運行情報を以下のコマンドで更新します。 cronで実行するといいでしょう。  
+
+    /usr/local/bin/php /home/xxxxx/www/mtm/script/check_traininfolog.php>/home/needtec/tokyometoro/traininfo.log
+
+
 ライセンス
 -------------
 当方が作成したコードに関してはMITとします。  
