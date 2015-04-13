@@ -6,6 +6,12 @@ Tokyo Metro Multilanguage
 http://needtec.sakura.ne.jp/mtm
 
 
+
+なるべく楽にWebアプリケーションの多言語対応する方法  
+http://qiita.com/mima_ita/items/fa6c43f877d87b2beee4
+
+
+
 インストール方法
 -----------------
 1.Gitよりコードを取得して、Webサーバーに配置します。  

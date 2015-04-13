@@ -39,3 +39,7 @@ Icon
 /config.php
 /mtm.sqlite
 /.htaccess
+/logs
+/cache
+/compiled
+/script/*.pyc
